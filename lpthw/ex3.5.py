@@ -1,0 +1,8 @@
+print("Based on my calculations this is how much I should be earning per work week!")
+print("19.75*40")
+print(19.75*40)
+print("If we take that and multiply it by the amount of weeks there are in a year")
+print("790*52")
+print(790*52)
+print()
+print("Et voila!")

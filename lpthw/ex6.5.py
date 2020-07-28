@@ -1,11 +1,11 @@
 #numeric variable to determine the amount of "Type of people"
 types_of_people = 10
 #variable where you factor the type of people
-x = f"There are {types_of_people} types of people."
+x = "There are {types_of_people} types of people."
 #variable to print determine the word binary
 binary = "binary"
 #self explanatory
-do_not = "don't"
+do_not = 5
 #variable to store string factors
 y = f"Those who know {binary} and those who {do_not}"
 #this equals to print(f"There are {types_of_people} types of people")
@@ -24,5 +24,5 @@ print(joke_evaluation.format(hilarious))
 #'w' and 'e' are variables containing strings which will be printed by the print function in line 28
 w = "This is the left side of..."
 e = "a string with a right side."
-#This case the print function is adding the strings in the variables 'w' and 'e'. The program is adding the two objects as if an arithmetic operation.
+ 
 print(w + e)

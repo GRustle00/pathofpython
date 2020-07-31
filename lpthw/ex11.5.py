@@ -1,0 +1,7 @@
+print("What's your favorite food?", end=' ')
+food = input()
+print(f"realy you like {food}? ok... that's an odd taste... what's your favorite restaurant?", end=' ')
+restaurant = input()
+print(f"{restaurant}!!!? Oh... nah thanks... good bye...any last words?", end=' ')
+last_words = input()
+print(f"{last_words}? \N{NAUSEATED FACE}")

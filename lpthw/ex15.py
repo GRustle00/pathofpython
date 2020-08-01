@@ -8,6 +8,8 @@ txt = open(filename)
 print(f"Here's your file {filename}:")
 #print the filename provided
 print(txt.read())
+#close command
+txt.close()
 #print the message "Type filename again:"
 print("Type filename again:")
 #ask fo user input to reopen the file
@@ -16,3 +18,5 @@ file_again = input("> ")
 txt_again = open(file_again)
 #open the text information again
 print(txt_again.read())
+#close command 2
+txt_again.close()

@@ -1,4 +1,12 @@
 Pydoc Info =
 
-open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
-file is a path-like object giving the pathname (absolute or relative to the current working directory) of the file to be opened or an integer file descriptor of the file to be wrapped. (If a file descriptor is given, it is closed when the returned I/O object is closed, unless closefd is set to False.)
+* open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
+* file = A path-like object giving the pathname (absolute or relative to the current working directory) of the file to be opened or an integer file descriptor of the file to be wrapped. (If a file descriptor is given, it is closed when the returned I/O object is closed, unless closefd is set to False.)
+
+Read and Writing files =
+* close - Closes the file. Like File -> Save .. in your editor
+* read - Reads the content of the file. You can assign the result to a variable.
+* readline - Read just one line of a text file.
+* truncate - Empties the file. Watch out if you care about the file.
+* write('stuff') - Writes "stuff" to the file.
+* Seek(0) - Move the read/write location to the beginning of the file.

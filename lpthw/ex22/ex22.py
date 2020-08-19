@@ -34,6 +34,7 @@ end = '' #used to signal a space
 "\000" #character with octal value
 "\x48" #character with hexal value
 
+
 print("""
 lorem
 ipsum
